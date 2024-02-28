@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Formular";
+  src: url("./fonts/formular.eot");
+  src: url("./fonts/formular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/formular.woff2") format("woff2"),
+    url("./fonts/formular.woff") format("woff"),
+    url("./fonts/formular.ttf") format("truetype"),
+    url("./fonts/formular.svg#formular") format("svg");
+}
+
+.decoration {
+  text-decoration: none;
+
+}
+.decoration:hover {
+color: #A78BFA;
+text-decoration: none;
+border-bottom: #A78BFA 3px dashed;
+}
+.decoration-2:hover {
+    color: #9CA3AF;
+    text-decoration: none;
+    border-bottom: #9CA3AF 2px dashed;
+    }
+.black-bold-average {
+  font-weight: bold;
+  font-size: 20px;
+}
+.black-bold-big {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.black-bold-big-2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.black {
+  font-size: 16px;
+}
+.black-min {
+  font-size: 12px;
+}
+.black-min-bold {
+  font-size: 14px;
+  font-weight: bold;
+}
+.black-bold {
+  font-size: 16px;
+  font-weight: bold;
+  color: #111827;
+}
+.black-average {
+  font-size: 20px;
+}
+.black-average-bold {
+  font-size: 22px;
+  font-weight: bold;
+}
+.wihte {
+  font-size: 16px;
+  color: #f9fafb;
+}
+.white-min {
+  font-size: 10px;
+  color: #f9fafb;
+}
+.wihte-bold {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f9fafb;
+}
+.white-big-bold {
+  font-size: 33px;
+  font-weight: bold;
+  color: #f9fafb;
+}
+.white-average {
+  font-family: fo;
+  font-size: 24px;
+  color: #f9fafb;
+}
+.white-average-bold {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9fafb;
+}
+
+.gray {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.gray-min {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+@media (max-width: 1024px) {
+  .black-bold-big {
+    font-size: 26px;
+  }
+  .black-average {
+    font-size: 16px;
+  }
+  .black-average-2 {
+    font-size: 20px;
+  }
+  .black {
+    font-size: 14px;
+  }
+  .white-big-bold {
+    font-size: 30px;
+  }
+  .white-average {
+    font-size: 20px;
+  }
+  .gray-min {
+    text-align: center;
+  }
+}
+@media (max-width:740px) {
+.black-bold-big-a { 
+    white-space: nowrap;
+    font-size: 22px;
+  }
+  .black-average-a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .black-bold-average-a{    white-space: nowrap;
+    font-size: 13px;}
+    .black-bold-big-2{font-size: 25px;}
+    .black-average-2{font-size: 14px;}
+    .black-average-bold{font-size: 15px;}
+  }

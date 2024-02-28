@@ -1,0 +1,20 @@
+.vector{
+    border: 1px solid;
+}
+
+.search,.search-2-2{
+    border: 2px solid #111827;
+    border-radius: 4px;
+}
+
+.search-name{border: 2px solid #111827;border-radius: 4px; }
+.br-message{
+    border: 2px solid #111827;
+    border-radius: 4px;
+}
+
+@media (max-width:1024px){
+    .vector{
+        border: none;
+    }
+}
